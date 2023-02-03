@@ -1,7 +1,7 @@
 Building Modern Applications with Django and Vue.js
 Learn ow to create a full-stack application with Django, Django REST framework, and Vue.js. Then, learn how to secure your REST API and the Vue.js frontend with Auth0.
 
-## Introduction to Python and Django
+## Python & Django
 Python is a general-purpose programming language and it's among the most popular programming languages in the world nowadays. It's readable, efficient, and easy to learn. Python is also a portable language available for major operating systems such as Linux, Windows, and Mac.
 
 For web developers, Python has many great tools and frameworks that make developers more productive and able to build prototypes in no time. The most popular web framework for development in the Python landscape is Django. Django is advertised as the framework for perfectionists with tight deadlines because of its ability to allow developers to quickly build prototypes.
@@ -19,7 +19,8 @@ Django is also suitable for beginners and you don't have to be an expert in ever
 "Django is also suitable for beginners and you don't have to be an expert in every feature of the framework to start building your web application."
 
 
-2) Introduction to Vue.js and Vue.js Features
+
+ # Introduction to Vue.js and Vue.js Features
 Vue.js is a progressive framework for building user interfaces with JavaScript. You can use Vue.js in the view layer of your application or you can use it to build Single Page Applications (SPAs) by combining it with some other frontend tools.
 
 Vue.js took the best of both Angular.js and React into one library. For example, just like React, Vue.js uses a virtual DOM and a component-based approach. It also uses similar syntax to the Angular.js directives (e.g. v-if and v-for)
@@ -31,6 +32,7 @@ Vue.js has many features, such as:
 2 reactive and composable view components;
 
 3 great performance;
+
 4  native rendering on iOS and Android thanks to Weex and NativeScript;
 
 5 Bootstrapping the backend Project
@@ -45,9 +47,13 @@ Let's start with Python 3. Chances are that you already have Python 3 installed 
 You can check if you have Python 3 installed by running the following command from your terminal or command prompt:
 
 python3 --version
+
 The venv module (part of the Python 3 standard library) allows you to create lightweight virtual environments for your projects. This allows you to have an isolated environments for each Python project (i.e. dependencies are isolated for each project and from the system-wide packages).
 
-Setting up an isolated environment provides you with more control over the installed Python packages. You can have different versions of the same package without having to worry about any conflicts, which allows you to work with different Python projects with different package versions. Also, since each environment can have its own Python binary, this allows you to create various environments with different Python versions.
+
+Setting up an isolated environment provides you with more control over the installed Python packages. You can have different versions of the same package without having to worry about any conflicts, which allows you to work with different Python projects with different package versions. 
+
+Also, since each environment can have its own Python binary, this allows you to create various environments with different Python versions.
 
 Once you create a virtual environment, venv will take care of installing the latest Python binary.
 
