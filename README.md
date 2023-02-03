@@ -18,6 +18,7 @@ Django is also suitable for beginners and you don't have to be an expert in ever
 
 "Django is also suitable for beginners and you don't have to be an expert in every feature of the framework to start building your web application."
 
+![django-basic-app](https://user-images.githubusercontent.com/93249038/216598492-ad5a1040-f76f-4c80-8dde-97c43584cc1f.png)
 
 
  # Introduction to Vue.js and Vue.js Features
@@ -40,6 +41,9 @@ Vue.js has many features, such as:
 6 Before you can create the backend project, you need to install some requirements on your development machine. For Django, you need to have Python 3, PIP, and venv installed.
 
 Please note that you don't need to install a full-fledged database management system to develop with Django. You can use an SQLite database which allows you to have a file-based database that doesn't require any special installation.
+
+![vuejs-basic-app](https://user-images.githubusercontent.com/93249038/216598534-99f802e0-d8ca-4e66-b674-51c5baddaae1.png)
+
 
 ## Installing the Requirements
 Let's start with Python 3. Chances are that you already have Python 3 installed on your machine. If not, then the process is simple. You just need to head over to the official downloads page and pick the installer for your operating system.
@@ -561,6 +565,8 @@ After authenticating, you will be redirected to your Vue.js application, where t
 
 ##  Authentication on Page Refresh
 One thing you might notice is that, if you refresh the page in your browser, your user will be unauthenticated again. The problem here is that you are persisting user data (profile and tokens) in memory. To solve that, developers used to use localStorage. However, as this approach is not secure, you will be better off using another approach.
+![auth0-authentication](https://user-images.githubusercontent.com/93249038/216598954-651c92f1-3a18-4400-a545-95d3e0d6a6f6.png)
+
 
 Luckily, Auth0 provides (through its auth0-js library) a method called checkSession that verifies if the current user has a valid session at Auth0. If they do, Auth0 then respond with the tokens you need in your app.
 
